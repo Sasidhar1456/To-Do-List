@@ -15,6 +15,10 @@ module.exports = {
         'san' : 'sans-serif',
         'love' : 'Love Ya Like A Sister',
       },
+
+      width :{
+        '85' : '22rem',
+      },
     },
     
   },
