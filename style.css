@@ -667,10 +667,6 @@ video {
   grid-row: span 1 / span 1;
 }
 
-.row-span-10{
-  grid-row: span 10 / span 10;
-}
-
 .row-span-8{
   grid-row: span 8 / span 8;
 }
@@ -741,10 +737,6 @@ video {
 
 .mt-10{
   margin-top: 2.5rem;
-}
-
-.mt-11{
-  margin-top: 2.75rem;
 }
 
 .mt-2{
@@ -870,16 +862,12 @@ video {
   height: 1.25rem;
 }
 
+.max-h-96{
+  max-height: 24rem;
+}
+
 .min-h-96{
   min-height: 24rem;
-}
-
-.min-h-20{
-  min-height: 5rem;
-}
-
-.min-h-80{
-  min-height: 20rem;
 }
 
 .w-40{
@@ -2625,8 +2613,38 @@ video {
 }
 
 @media (min-width: 640px){
+  .sm\:mt-7{
+    margin-top: 1.75rem;
+  }
+
   .sm\:underline{
     text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 768px){
+  .md\:ml-3{
+    margin-left: 0.75rem;
+  }
+
+  .md\:mt-0{
+    margin-top: 0px;
+  }
+
+  .md\:w-100{
+    width: 29rem;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:items-center{
+    align-items: center;
+  }
+
+  .md\:justify-center{
+    justify-content: center;
   }
 }
 
