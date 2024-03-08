@@ -667,6 +667,10 @@ video {
   grid-row: span 1 / span 1;
 }
 
+.row-span-10{
+  grid-row: span 10 / span 10;
+}
+
 .row-span-8{
   grid-row: span 8 / span 8;
 }
@@ -737,6 +741,10 @@ video {
 
 .mt-10{
   margin-top: 2.5rem;
+}
+
+.mt-11{
+  margin-top: 2.75rem;
 }
 
 .mt-2{
@@ -862,8 +870,20 @@ video {
   height: 1.25rem;
 }
 
-.w-1\/2{
-  width: 50%;
+.min-h-96{
+  min-height: 24rem;
+}
+
+.min-h-20{
+  min-height: 5rem;
+}
+
+.min-h-80{
+  min-height: 20rem;
+}
+
+.w-40{
+  width: 10rem;
 }
 
 .w-5{
@@ -1858,11 +1878,6 @@ video {
 
 .border-none{
   border-style: none;
-}
-
-.border-red-500{
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\]{
