@@ -33,7 +33,7 @@ function toggleTaskCompletion(checkbox) {
 
 function deleteTask(button){
     const task = button.parentElement.parentElement;
-    if(confirm("You are deleting task from the list")){
+    if(confirm("You are deleting a task from the list")){
         task.remove();
     } 
 }
