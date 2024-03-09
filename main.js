@@ -43,6 +43,12 @@ function addTask() {
     const taskInput = document.getElementById('task');
     const taskText = taskInput.value;
 
+    if(taskText.trim() === ""){
+            alert("Please type your task");
+            taskInput.value = '';
+            return;
+    }
+
     // Create task elements
     const taskContainer = document.getElementById('taskContainer');
     const taskDiv = document.createElement('div');
